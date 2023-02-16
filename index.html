@@ -4,118 +4,38 @@
 	<title>청첩장</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="fullpage.css">
+	<link rel="stylesheet" href="full-page-scroll.css">
 </head>
 <body>
-	<header class="section">
-		<img src="header.jpg" alt="header image">
-		<section class="fp-section">
-			<div class="text-box">
-				<h1>이유환❤이보인 결혼식에 초대합니다.</h1>
-				<p>싱그러운 5월의 햇살 아래, 서로의 봄이 되어줄 두 사람이 만났습니다.</p>
-			</div>
-		</section>	
-	</header>
-
-	<section id="map" class="section">
-		<section class="fp-section">
-			<h2>웨딩홀 위치</h2>
-			<div id="map-canvas"></div>
-		</section>
-	</section>
-
-	<section id="gallery" class="section">
-		<section class="fp-section">
-			<h2>Memorials</h2>
-			<div class="gallery-container">
-				<img src="gallery-1.jpg" alt="gallery image 1">
-				<img src="gallery-2.jpg" alt="gallery image 2">
-				<img src="gallery-3.jpg" alt="gallery image 3">
+	<div id="main" class="scroll-container">
+		<section class="section1">
+			<div>
+				<span>이유환❤이보인</span>          
 			</div>
 		</section>
-	</section>
-
-	<section id="buttons" class="section">
-		<section class="fp-section">
-			<h2>축의금 보내는 곳</h2>
-			<div class="wrap">
- 			 <a href="#pop_info_1" class="btn_open">팝업 열기1</a>
- 			 <a href="#pop_info_2" class="btn_open">팝업 열기2</a>
-
-
-			  <div id="pop_info_1" class="pop_wrap" style="display:none;">
-    				<div class="pop_inner">
-   				   <p class="dsc">팝업 안내문구 입니다.</p>
-   				   <button type="button" class="btn_close">닫기</button>
- 			   </div>
- 			 </div>
-
-  			<div id="pop_info_2" class="pop_wrap" style="display:none;">
-  				  <div class="pop_inner">
-   				   <p class="dsc">팝업 안내문구 입니다222.</p>
-    				  <button type="button" class="btn_close">닫기</button>
-  			  </div>
-		  </div>
-		</div>
-	</section>
-		
-	<section id="messages" class="section">
-		<section class="fp-section">
-			<h2>축하 메세지</h2>
+		<section class="section2">
+			<div>
+				<span>오시는 길</span>  
+			</div>
 		</section>
-	</section>
-	   <section class="mb-5">
-                        <div class="card bg-light">
-                            <div class="card-body">
-                                <!-- Comment form-->
-                                <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Join the discussion and leave a comment!"></textarea></form>
-                                <!-- Comment with nested comments-->
-                                <div class="d-flex mb-4">
-                                    <!-- Parent comment-->
-                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                    <div class="ms-3">
-                                        <div class="fw-bold">Commenter Name</div>
-                                        If you're going to lead a space frontier, it has to be government; it'll never be private enterprise. Because the space frontier is dangerous, and it's expensive, and it has unquantified risks.
-                                        <!-- Child comment 1-->
-                                        <div class="d-flex mt-4">
-                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                            <div class="ms-3">
-                                                <div class="fw-bold">Commenter Name</div>
-                                                And under those conditions, you cannot establish a capital-market evaluation of that enterprise. You can't get investors.
-                                            </div>
-                                        </div>
-                                        <!-- Child comment 2-->
-                                        <div class="d-flex mt-4">
-                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                            <div class="ms-3">
-                                                <div class="fw-bold">Commenter Name</div>
-                                                When you put money directly to a problem, it makes a good headline.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single comment-->
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                    <div class="ms-3">
-                                        <div class="fw-bold">Commenter Name</div>
-                                        When I look at the universe and all the ways the universe wants to kill us, I find it hard to reconcile that with statements of beneficence.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-	<ul class="side-nav">
- 		 <li data-page="#page1"><span>Page</span> 1</li>
-		 <li data-page="#page2"><span>Page</span> 2</li>
-		 <li data-page="#page3"><span>Page</span> 3</li>
-	</ul>
+		<section class="section3">
+			<div>
+				<span>갤러리</span>      
+			</div>
+		</section>
+		<section class="section4">
+			<div>
+				<span>축의금 전달</span>      
+			</div>
+		</section>
+		<section class="section5">
+			<div>
+				<span>축하의 말</span>       
+			</div>
+		</section>
+	</div>
 
-	<script src="fullpage.js"></script>
-	<script src="script.js"></script>
-	<script src="scrollpage.min.js"></script>
+	<script src="full-page-scroll.js"></script>
 
 </body>
 </html>
