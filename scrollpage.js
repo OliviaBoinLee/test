@@ -964,3 +964,23 @@ if(typeof module != "undefined"){
 const scrollPage = new ScrollPage("#presentation", {
       menu: "ul.side-nav",
 });
+
+const scrollPage = new ScrollPage("#presentation", {
+      // easing functions
+      animation: "easeInSine",
+      // animation speed
+      time: 500,
+      // show/hide scrollbar
+      scrollBar: false,
+      // css class name for active page element
+      pageSelectedClass:"active",
+      // css class name for active menu item
+      menuSelectedClass:"active",
+      // trigger scrollpage if scrolling content reach bottom or top
+      triggerScrollChildren: false,
+      // relative to parent height or nor
+      relative: false,
+});
+
+
+scrollPage.moveTo(page,options)
