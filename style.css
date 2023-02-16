@@ -66,4 +66,29 @@ header img {
 }
 
 /* buttons 스타일 */
-#
+#buttons
+
+a.btn1,
+button.btn1{
+    display:block;
+    width:120px;
+    line-height:30px;
+    text-align:center;
+    /* 이미지 크기를 30*30 정사각형으로 지정하는 경우 */
+    padding-left:40px; /* 이미지와 글자사이 10px의 간격을 줌 */
+    background-image:url(search.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+}
+a.btn2,
+button.btn2{
+    display:block;
+    width:120px;
+    line-height:30px;
+    text-align:center;
+    /* 이미지 크기를 30*30 정사각형으로 지정하는 경우 */
+    padding-left:40px; /* 이미지와 글자사이 10px의 간격을 줌 */
+    background-image:url(search.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+}	
