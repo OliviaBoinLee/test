@@ -66,29 +66,17 @@ header img {
 }
 
 /* buttons 스타일 */
-#buttons
+*{margin:0; padding:0;}
+a{text-decoration:none;}
+.wrap{padding:10px;}
 
-a.btn1,
-button.btn1{
-    display:block;
-    width:120px;
-    line-height:30px;
-    text-align:center;
-    /* 이미지 크기를 30*30 정사각형으로 지정하는 경우 */
-    padding-left:40px; /* 이미지와 글자사이 10px의 간격을 줌 */
-    background-image:url(search.png);
-    background-repeat:no-repeat;
-    background-position:left center;
+.btn_open {
+	font-weight:bold;
+	margin:5px;
+	padding:4px 6px;
+	background:#000;
+	color:#fff;
 }
-a.btn2,
-button.btn2{
-    display:block;
-    width:120px;
-    line-height:30px;
-    text-align:center;
-    /* 이미지 크기를 30*30 정사각형으로 지정하는 경우 */
-    padding-left:40px; /* 이미지와 글자사이 10px의 간격을 줌 */
-    background-image:url(search.png);
-    background-repeat:no-repeat;
-    background-position:left center;
-}	
+.pop_wrap{position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.5); font-size:0; text-align:center;}
+.pop_wrap:after{display:inline-block; height:100%; vertical-align:middle; content:'';}
+.pop_wrap .pop_inner{display:inline-block; padding:20px 30px; background:#fff; width:200px; vertical-align:middle; font-size:15px;}
