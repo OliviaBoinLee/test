@@ -960,3 +960,7 @@ class ScrollPage {
 if(typeof module != "undefined"){
     module.exports = ScrollPage;
 }
+
+const scrollPage = new ScrollPage("#presentation", {
+      menu: "ul.side-nav",
+});
